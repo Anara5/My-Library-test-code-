@@ -22,7 +22,7 @@ public class Main {
         System.out.println(book4.toString());
         System.out.println(book5.toString());
         System.out.println();
-        System.out.println(Book.toPages()); // to print out a book with most pages
+        System.out.println(Book.bookPages()); // calling the method  bookPages from Book class to print out a book with most pages
 
         new User("Anna", "Morozova", "anna@mail.ru");
         new User("Maxim", "Komarov", "max@mail.ru");
